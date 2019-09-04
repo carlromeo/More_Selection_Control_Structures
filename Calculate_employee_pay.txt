@@ -1,0 +1,33 @@
+Pseudocode
+
+Declare employee_number
+Declare pay_rate
+Declare hours_worked
+Declare maximum hours per week
+Declare hourly_rate
+Declare earned_weekly pay
+Declare overtime_hours
+Declare overtime_payment
+
+prompt user for employee_number
+get employee_number
+prompt user for pay_rate
+get pay_rate
+prompt user for hourly_rate
+get hourly_rate
+prompt user for hours_worked
+get hours_worked
+
+Define overtime hourly_rate
+
+
+If (hours worked is < 60) 
+then
+earned pay = hours_worked*25
+If hours_worked is > 60
+then 
+week pay is not calculated
+print error message
+if hours_worked is >35 and <60
+then overtime_payment = ((hours_worked - 35)*37.5)+(35*25)
+
