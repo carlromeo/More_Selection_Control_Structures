@@ -1,0 +1,52 @@
+Pseudocode
+
+Declare customer_name
+Declare purchase_amount
+Declare tax
+Declare sales_tax
+Declare total
+
+Prompt user for customer_name
+get customer_name
+prompt user for tax code
+get tax_code
+
+Define percentages for tax
+case 0: tax = 0.00;
+case 1: tax = 0.03;
+case 2: tax = 0.05;
+case 3: tax = 0.07;
+
+calculate sales_tax: 
+sales_tax = (purchase amount * tax);
+
+calculate total_amount:
+total amount = (purchase_amount + sales_tax);
+
+IPO/ Algorithm
+
+Input
+
+customer_name
+purchase_amount
+tax_code
+
+Process
+
+taxcode:
+case 0: tax = 0.00;
+case 1: tax = 0.03;
+case 2: tax = 0.05;
+case 3: tax = 0.07;
+
+sales_tax = (purchase amount * tax);
+total amount = purchase_amount + sales_tax
+
+Output
+
+Display customer_name, purchase_amount, sales_tax, total
+
+control structure
+switch
+
+
